@@ -85,10 +85,10 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
+      includeAssets: ['favicon.png', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'Chrome little Dinosaur',
+        short_name: 'Chrome little Dinosaur',
         theme_color: '#ffffff',
         icons: [
           {
